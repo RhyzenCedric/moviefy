@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 
-export default function navbar() {
+export default function Navbar() {
     const router = useRouter();
     const searchParams = useSearchParams();
     const newQuery = searchParams.get("query") || "";

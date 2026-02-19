@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useRef, useState } from 'react';
-import type { iTunesSong } from '../../.next/dev/types/itunes';
+import type { iTunesSong } from './types/itunes';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPause, faPlay } from '@fortawesome/free-solid-svg-icons';
 import { useAudioAnalysis } from './api/song-analysis/route';
