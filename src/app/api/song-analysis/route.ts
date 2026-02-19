@@ -1,3 +1,4 @@
+"use client";
 import { useEffect, useRef, useState } from "react";
 
 function calculateRMS(buffer: Float32Array): number {
