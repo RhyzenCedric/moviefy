@@ -1,3 +1,4 @@
+"use client";
 import React, { useEffect, useRef, useState } from 'react';
 import type { iTunesSong } from '../../.next/dev/types/itunes';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
